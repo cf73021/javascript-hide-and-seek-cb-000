@@ -1,5 +1,5 @@
 function getFirstSelector(selector) {
-  selected = document.querySelector(selector)
+  var selected = document.querySelector(selector)
   return selected
 }
 
@@ -8,15 +8,15 @@ function nestedTarget() {
 }
 
 function increaseRankBy(n){
-  ranks = document.querySelectorAll('ul.ranked-list li');
+  var ranks = document.querySelectorAll('ul.ranked-list li');
   for (let i = 0; i < ranks.length; i++){
     ranks[i].innerHTML = (i + 1).toString();
   }
 }
 
 function deepestChild(){
-  deepest = document.querySelector('#grand-node')
+   var deepest = document.querySelector('#grand-node')
   for (let i = 0; i < deepest.length; i++){
-    next_deepest = document.querySelectorAll()
+    var next_deepest = document.querySelectorAll()
   }
 }
